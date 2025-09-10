@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira Página</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+        #presentacao {
+            text-align: center;
+            color: red;
+        }
+
+        #tech {
+            text-align: left;
+            color: rgb(129, 118, 13);
+        }
+
+        #bye {
+            text-align: center;
+            color: rgb(0, 60, 255);
+        }
+
+        p {
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+    </style>
+
+
 </head>
+
 <body>
 
     <header>
@@ -12,30 +39,31 @@
     </header>
 
     <main>
-        <p>Eis a minha primeira página web!</p>
+        <p id="apresentacao">Eis a minha primeira página web!</p>
         <p>
-            Na Unidade Curricular de 
+            Na Unidade Curricular de
             <a href="https://moodle.ensinolusofona.pt/course/view.php?id=11232">
                 Desenvolvimento de Interfaces Web
-                </a>
-                abordemos as seguintes tecnologias web &#127760;:
-            </p>
+            </a>
+            abordemos as seguintes tecnologias web &#127760;:
+        </p>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React e Next.js</li>
-                </ul>
+        <ul id="tech">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React e Next.js</li>
+        </ul>
 
-                <p>Iremos criar soluções criativas!</p>
-                <img src="images/diw.svg" alt="Desenvolvimento de interfaces Web">
+        <p id="bye">Iremos criar soluções criativas!</p>
+        <img src="images/diw.svg" alt="Desenvolvimento de interfaces Web">
 
-                </main>
+    </main>
 
-                <footer>
-                    <p>Universidade Lusófona © 2025</p>
-                    </footer>
+    <footer>
+        <p>Universidade Lusófona © 2025</p>
+    </footer>
 
 </body>
+
 </html>
