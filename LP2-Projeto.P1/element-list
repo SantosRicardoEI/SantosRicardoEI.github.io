@@ -1,0 +1,12 @@
+pt.ulusofona.lp2.greatprogrammingjourney
+pt.ulusofona.lp2.greatprogrammingjourney.config
+pt.ulusofona.lp2.greatprogrammingjourney.core
+pt.ulusofona.lp2.greatprogrammingjourney.gamerules
+pt.ulusofona.lp2.greatprogrammingjourney.model.board
+pt.ulusofona.lp2.greatprogrammingjourney.model.move
+pt.ulusofona.lp2.greatprogrammingjourney.model.player
+pt.ulusofona.lp2.greatprogrammingjourney.parser
+pt.ulusofona.lp2.greatprogrammingjourney.simulation
+pt.ulusofona.lp2.greatprogrammingjourney.theme
+pt.ulusofona.lp2.greatprogrammingjourney.ui
+pt.ulusofona.lp2.greatprogrammingjourney.utils
